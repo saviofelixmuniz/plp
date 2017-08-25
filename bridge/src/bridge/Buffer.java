@@ -15,11 +15,6 @@ public class Buffer {
     }
 
     public synchronized boolean passar(long id, String origem) throws InterruptedException {
-        System.out.println(id + "      " + origem);
-        System.out.println(currentFlow);
-        System.out.println(queue);
-
-        System.out.println(queue);
         if (currentFlow == null)
             currentFlow = origem;
 

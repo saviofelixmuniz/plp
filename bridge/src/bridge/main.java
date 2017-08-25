@@ -7,6 +7,8 @@ public class main {
             p.carro("B");
             p.carro("A");
             p.carro("B");
+            p.carro("A");
+            p.carro("B");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
